@@ -1,1 +1,14 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="247" x="46" y="14">
+    <next>
+      <block type="controls_whileUntil" id="33" inline="false">
+        <field name="MODE">UNTIL</field>
+        <value name="NUMBER">
+          <block type="sensor_button" id="49">
+            <field name="OBJECT">ENTER</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>
