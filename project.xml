@@ -13,11 +13,11 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_forward" id="3">
+          <block type="movement_right" id="128">
             <next>
-              <block type="movement_right" id="128">
+              <block type="movement_left" id="144">
                 <next>
-                  <block type="movement_left" id="144">
+                  <block type="movement_forward" id="3">
                     <next>
                       <block type="robot_delay" id="4" inline="true">
                         <value name="DELAY">
